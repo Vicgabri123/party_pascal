@@ -1,0 +1,100 @@
+NOTAS DO PROJETO – PARTY PASCAL 
+
+Título: Party Pascal
+Tipo: Jogo institucional/ Party Game Temático
+Tema: Governança de TI e COBIT
+Tecnologia: Python + Pygame
+Versão atual: 0.2 (com pontuação dinâmica)
+Autores: Equipe de Desenvolvimento do Projeto Disciplinar
+
+Objetivo Geral:
+
+Desenvolver um jogo educacional interativo com o objetivo de tornar o aprendizado de Governança de TI mais envolvente, lúdico e dinâmico, por meio de minijogos temáticos inspirados em desafios curtos no estilo Mario Party.
+
+Objetivos Específicos:
+
+Ensinar conceitos de COBIT e Governança de TI de forma gamificada.
+
+Avaliar o aprendizado dos jogadores por meio de pontuações e feedbacks.
+
+Estimular a interação em grupo e o raciocínio lógico.
+
+Integrar conteúdo acadêmico com mecânicas divertidas.
+
+Metodologia e Tecnologias:
+
+Linguagem: Python
+
+Biblioteca principal: Pygame
+
+Estrutura de projeto modular, dividida em:
+
+main.py: ponto de entrada
+
+game_loop.py: lógica central e controle de estados
+
+/minigames: módulos independentes
+
+/scripts: utilitários e funções auxiliares
+
+/assets: mídia (sons e imagens)
+
+/docs: documentação
+
+O desenvolvimento segue o modelo iterativo incremental, com entregas semanais e testes contínuos.
+
+Avaliação da Qualidade:
+
+A qualidade será garantida através de:
+
+Testes contínuos: cada sprint incluirá testes de jogabilidade e estabilidade.
+
+Revisões semanais: a equipe revisa falhas e ajusta requisitos.
+
+Feedback de usuários-teste: protótipos jogáveis serão avaliados por estudantes.
+
+Checklist de qualidade:
+
+Jogabilidade fluida
+
+Clareza visual e textual
+
+Pontuação justa
+
+Experiência educacional consistente
+
+
+Risco	Mitigação:
+Dificuldades técnicas	Divisão de tarefas e uso de ferramentas simples (Pygame).
+Atrasos no cronograma	Metas semanais e reuniões curtas de acompanhamento.
+Falhas de integração	Testes unitários e integração contínua a cada módulo.
+Comunicação interna	Uso de canais fixos (WhatsApp/Teams) e documentação centralizada.
+
+Notas de Atualização:
+
+Versão 0.1:
+
+Estrutura inicial do projeto.
+
+Tela de menu e loop básico implementado.
+
+Versão 0.9:
+
+Sistema de pontuação adicionado.
+
+Feedback visual de pontos e total final.
+
+Modo sequência e modo livre funcionando.
+
+Próxima versão (0.3):
+
+Ranking local com top 5 pontuações (arquivo JSON).
+
+Sons de feedback e trilha leve.
+
+Adição de perguntas e lógica real nos minijogos.
+
+Conclusão e Próximos Passos
+
+O projeto Party Pascal encontra-se em fase funcional, com mecânicas principais implementadas e espaço para expansão dos minijogos e integração dos conceitos educacionais.
+Os próximos passos envolvem adicionar conteúdo pedagógico, melhorar a interface e testar com usuários reais para validar o impacto educacional.
