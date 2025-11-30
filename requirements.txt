@@ -1,0 +1,14 @@
+pygame==2.5.2
+colorama==0.4.6
+typing-extensions==4.12.2
+pillow==10.4.0
+numpy==2.1.3
+
+# ==== Bibliotecas principais ====
+pygame==2.5.2              # Motor principal do jogo
+colorama==0.4.6            # Logs coloridos no terminal
+typing-extensions==4.12.2  # Compatibilidade com tipagem moderna
+
+# ==== Suporte opcional ====
+pillow==10.4.0             # Caso queira trabalhar com imagens e redimensionamento
+numpy==2.1.3               # Útil se quiser cálculos ou física mais precisa
